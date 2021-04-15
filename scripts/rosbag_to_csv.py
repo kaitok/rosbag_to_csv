@@ -99,6 +99,7 @@ def GetTopicList(path):
     for to,ty in zip(topics,types):
         results.append(to)
 
+    results.sort()
     #  print "GetTopicList result:"
     #  print results
     return results
